@@ -7,7 +7,7 @@ export const siteConfig = {
   // ---------- ССЫЛКА НА ЛИЧНЫЕ СООБЩЕНИЯ ----------
   // Вставьте сюда вашу ссылку (ВКонтакте, Telegram, Max и т.д.)
   messengerLink:
-    "ВСТАВИТЬ_ССЫЛКУ_НА_ЛИЧНЫЕ_СООБЩЕНИЯ", // например: https://max.ru/u/xxxxxxx
+    "https://t.me/Guru_Avito", // например: https://max.ru/u/xxxxxxx
 
   // Текст, который подставляется в сообщение при переходе
   prefilledMessage:
