@@ -94,28 +94,28 @@ export default function Hero() {
 
               <div className="absolute -top-5 -left-5 rounded-xl bg-brand-red px-4 py-3 shadow-glow-red">
                 <p className="font-display text-3xl text-white leading-none">+15</p>
-                <p className="font-mono text-[10px] text-white/80 mt-1">заявок в мес.</p>
-              </div>
+                
+      
             </div>
 
             <FloatingNotification
               icon={MessageCircle}
               title="Новое сообщение"
-              subtitle="Клиент интересуется услугой"
+              
               className="absolute -right-4 top-8 w-56 hidden sm:block"
               delay={0.3}
             />
             <FloatingNotification
               icon={PhoneCall}
               title="Новый звонок"
-              subtitle="+7 (9••) •••-••-••"
+             
               className="absolute -left-6 bottom-24 w-52 hidden sm:block"
               delay={0.6}
             />
             <FloatingNotification
               icon={TrendingUp}
               title="Просмотры выросли на 87%"
-              subtitle="пример · для иллюстрации"
+              
               className="absolute -right-6 bottom-4 w-60"
               delay={0.9}
             />
