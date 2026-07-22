@@ -54,11 +54,7 @@ export default function Header() {
 
         <nav className="hidden lg:flex items-center gap-8">
           {NAV_LINKS.map((link) => (
-            
-              key={link.href}
-              href={link.href}
-              className="text-sm text-ink-gray hover:text-white transition-colors font-medium"
-            >
+            <a key={link.href} href={link.href} className="text-sm text-ink-gray hover:text-white transition-colors font-medium">
               {link.label}
             </a>
           ))}
@@ -98,12 +94,7 @@ export default function Header() {
             </div>
             <div className="flex flex-col items-center justify-center gap-8 flex-1">
               {NAV_LINKS.map((link) => (
-                
-                  key={link.href}
-                  href={link.href}
-                  onClick={() => setMenuOpen(false)}
-                  className="font-display uppercase text-2xl text-white"
-                >
+                <a key={link.href} href={link.href} onClick={() => setMenuOpen(false)} className="font-display uppercase text-2xl text-white">
                   {link.label}
                 </a>
               ))}
