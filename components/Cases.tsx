@@ -12,10 +12,6 @@ export default function Cases() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading eyebrow="Результаты" title="Результаты в цифрах" />
 
-        <div className="mt-4 inline-block rounded-md border border-brand-red/40 bg-brand-red/10 px-4 py-2 font-mono text-xs text-red-300">
-          Заменить на подтверждённые кейсы перед запуском рекламы
-        </div>
-
         <div className="mt-10 grid gap-5 md:grid-cols-3">
           {cases.map((c, i) => (
             <motion.div
