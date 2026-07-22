@@ -36,15 +36,13 @@ export default function Hero() {
             </span>
 
             <h1 className="font-display uppercase text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.02] mb-6">
-              Строитель,
-              <br />
-              получи до{" "}
-              <span className="bg-gradient-to-r from-brand-red to-red-400 bg-clip-text text-transparent">
-                15 дополнительных
-              </span>
-              <br />
-              заявок с Авито
-            </h1>
+  Получи до{" "}
+  <span className="bg-gradient-to-r from-brand-red to-red-400 bg-clip-text text-transparent">
+    15 заявок
+  </span>
+  <br />
+  с Авито уже после разбора
+</h1>
 
             <p className="text-ink-gray text-base sm:text-lg max-w-xl leading-relaxed mb-8">
               На бесплатном разборе покажу, почему ваши объявления теряют
