@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Oswald", sans-serif;
+  --font-body: "Manrope", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #050505;
+  color: #ffffff;
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+@media (max-width: 1023px) {
+  main {
+    padding-bottom: 76px;
+  }
+}
+
+::selection {
+  background: #e10600;
+  color: #ffffff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
