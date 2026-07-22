@@ -30,19 +30,19 @@ export default function Header() {
     openMessenger();
   };
 
+  const outerClass =
+    "fixed top-0 left-0 right-0 z-50 transition-all duration-300 " +
+    (scrolled ? "py-2" : "py-4");
+
+  const innerClass =
+    "mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between rounded-xl border transition-all duration-300 " +
+    (scrolled
+      ? "bg-base-black/80 backdrop-blur-md border-white/10 shadow-glow-red py-2"
+      : "bg-transparent border-transparent py-3");
+
   return (
-    <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "py-2" : "py-4"
-      }`}
-    >
-      <div
-        className={`mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between rounded-xl border transition-all duration-300 ${
-          scrolled
-            ? "bg-base-black/80 backdrop-blur-md border-white/10 shadow-glow-red py-2"
-            : "bg-transparent border-transparent py-3"
-        }`}
-      >
+    <header className={outerClass}>
+      <div className={innerClass}>
         <a href="#top" className="flex flex-col leading-tight">
           <span className="font-display uppercase text-lg sm:text-xl text-white tracking-wide">
             {siteConfig.brand.name}
