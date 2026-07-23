@@ -36,13 +36,13 @@ export default function Hero() {
             </span>
 
             <h1 className="font-display uppercase text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.02] mb-6">
-  Получи до{" "}
-  <span className="bg-gradient-to-r from-brand-red to-red-400 bg-clip-text text-transparent">
-    15 заявок
-  </span>
-  <br />
-  с Авито уже после разбора
-</h1>
+              Получи до{" "}
+              <span className="bg-gradient-to-r from-brand-red to-red-400 bg-clip-text text-transparent">
+                15 заявок
+              </span>
+              <br />
+              с Авито уже после разбора
+            </h1>
 
             <p className="text-ink-gray text-base sm:text-lg max-w-xl leading-relaxed mb-8">
               На бесплатном разборе покажу, почему ваши объявления теряют
@@ -92,28 +92,24 @@ export default function Hero() {
 
               <div className="absolute -top-5 -left-5 rounded-xl bg-brand-red px-4 py-3 shadow-glow-red">
                 <p className="font-display text-3xl text-white leading-none">+15</p>
-                
-      
+              </div>
             </div>
 
             <FloatingNotification
               icon={MessageCircle}
               title="Новое сообщение"
-              
               className="absolute -right-4 top-8 w-56 hidden sm:block"
               delay={0.3}
             />
             <FloatingNotification
               icon={PhoneCall}
               title="Новый звонок"
-             
               className="absolute -left-6 bottom-24 w-52 hidden sm:block"
               delay={0.6}
             />
             <FloatingNotification
               icon={TrendingUp}
               title="Просмотры выросли на 87%"
-              
               className="absolute -right-6 bottom-4 w-60"
               delay={0.9}
             />
